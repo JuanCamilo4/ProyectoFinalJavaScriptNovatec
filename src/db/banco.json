@@ -1,0 +1,79 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "documento": "1004804336",
+      "contrasena": "1235",
+      "nombre": "juan",
+      "telefono": "318",
+      "direccion": "Prados",
+      "rol": "banco"
+    },
+    {
+      "id": 2,
+      "documento": "1004804335",
+      "contrasena": "1234",
+      "nombre": "rios",
+      "telefono": "213",
+      "direccion": "dasd",
+      "rol": "cliente"
+    },
+    {
+      "id": 3,
+      "documento": "1004804337",
+      "contrasena": "1236",
+      "nombre": "test",
+      "telefono": "318",
+      "direccion": "da",
+      "rol": "banco"
+    }
+  ],
+  "cuentas": [
+    {
+      "id": "1",
+      "documento": "1004804335",
+      "numero": "123456789A",
+      "saldo": 150
+    },
+    {
+      "id": 2,
+      "documento": "1004804335",
+      "numero": "123456789M",
+      "saldo": 150
+    }
+  ],
+  "movimientos": [
+    {
+      "id": 1,
+      "documento": "1004804335",
+      "numero": "123456789M",
+      "cantidad": 50,
+      "type": "retiro",
+      "fecha": "11-10-2022"
+    },
+    {
+      "id": 2,
+      "documento": "1004804335",
+      "numero": "123456789M",
+      "cantidad": 50,
+      "type": "retiro",
+      "fecha": "11-10-2022"
+    },
+    {
+      "id": 3,
+      "documento": "1004804336",
+      "numero": "123456789A",
+      "cantidad": 70,
+      "type": "ingreso",
+      "fecha": "11-10-2022"
+    },
+    {
+      "id": 4,
+      "documento": "1004804335",
+      "numero": "123456789A",
+      "cantidad": 20,
+      "type": "retiro",
+      "fecha": "11-10-2022"
+    }
+  ]
+}

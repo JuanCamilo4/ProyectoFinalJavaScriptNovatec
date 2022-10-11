@@ -1,0 +1,43 @@
+header{
+    background-color: #0253a5;
+    padding: 1rem;
+    text-align: center;
+    color: #fff;
+    font-size: 1.3rem;
+    font-weight: bold;
+}
+iframe{
+    width: 90%;
+    height: 100vh;
+}
+.menu{
+    background-color: #f1f1f1;
+    padding: 1rem 0;
+    padding-top: 0;
+}
+.title-menu{
+    padding: 0.8rem;
+    font-size: 1.2rem;
+    color: #fff;
+    text-align: center;
+    margin-bottom: 0.5rem;
+}
+.menu ul{
+    padding: 0;
+    margin: 0;
+}
+.menu ul li{
+    list-style: none;
+    padding: 0.6rem 0;
+    font-size: 1.1rem;
+    padding-left: 2rem;
+    cursor: pointer;
+}
+.menu ul li:hover{
+    color: #fff;
+    background-color: #0253a5;
+}
+.menu ul .li-active{
+    color: #fff;
+    background-color: #0253a5;
+}
